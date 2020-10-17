@@ -1,3 +1,5 @@
+# https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/02_Online_ASR_Microphone_Demo.ipynb
+
 import numpy as np
 import pyaudio as pa
 import os, time
