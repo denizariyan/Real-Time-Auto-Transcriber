@@ -1,11 +1,11 @@
-    # https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/02_Online_ASR_Microphone_Demo.ipynb
+# https://github.com/NVIDIA/NeMo/blob/main/tutorials/asr/02_Online_ASR_Microphone_Demo.ipynb
 
 import socket
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
     HOST = '127.0.0.1'  # Standard loopback interface address (localhost)
     PORT = 65432        # Port to listen on (non-privileged ports are > 1023)
-    
+
     s.connect((HOST, PORT))
 
     import numpy as np
